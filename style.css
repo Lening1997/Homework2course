@@ -166,4 +166,33 @@ a {
     width: 343px;
     height: 300px;
   }
+  .game {
+    grid-template-columns: none;
+    height: 653.61px;
+  }
+  .game__heading {
+    margin-top: 178px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .game__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .game__button {
+    display: block;
+    margin: auto;
+  }
+  .game__picture {
+    margin-top: 64px;
+    width: 344px;
+    height: 236px;
+    margin-bottom: 85px;
+  }
 }/*# sourceMappingURL=style.css.map */

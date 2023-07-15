@@ -32,7 +32,7 @@ b = Number(b);
 alert (a + b);*/
 
 //Задание 5
-let monthNumber = prompt('Введите номер месяца');
+/*let monthNumber = prompt('Введите номер месяца');
 switch (monthNumber) {
     case '1' : 
     console.log('зима');
@@ -71,7 +71,7 @@ switch (monthNumber) {
     console.log('зима');
     break;
     default: console.log('ввел что-то не то');
-    break;
+    break;*/
 }
    
 
