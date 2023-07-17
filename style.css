@@ -170,6 +170,10 @@ a {
     grid-template-columns: none;
     height: 653.61px;
   }
+  .game__left {
+    width: auto;
+    margin-right: auto;
+  }
   .game__heading {
     margin-top: 178px;
     font-size: 32px;

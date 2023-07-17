@@ -36,6 +36,10 @@
     .game {
         grid-template-columns: none;
         height: 653.61px;
+        &__left {
+            width: auto;
+            margin-right: auto;
+        }
         &__heading {
             margin-top: 178px;
             font-size: 32px;
