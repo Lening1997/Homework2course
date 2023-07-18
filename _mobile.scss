@@ -49,11 +49,17 @@
             text-align: center;
         }
         &__text {
+            width: 343px;
             font-size: 14px;
             font-weight: 300;
             line-height: 22px;
             letter-spacing: 0px;
             text-align: center;
+            margin-bottom: 32px;
+            &_memory {
+                text-align: center;
+                width: 343px;
+            }
         }
         &__button {
             display: block;
@@ -64,6 +70,15 @@
             width: 344px;
             height: 236px;
             margin-bottom: 85px;
+        }
+        &__memory {
+            &_left {
+                order: 2;
+            }
+            &_right {
+                order: 1;
+                text-align: center;
+            }
         }
     }
 }
