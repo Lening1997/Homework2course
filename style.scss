@@ -62,6 +62,11 @@ width: 490px;
     width: 234.06px;
     height: 48.6px;
     border-radius: 20px;
+    &:hover {
+        background-color: #fff;
+        color: #9C0332;
+        text-decoration: underline;
+    }
     }
     .product {
         height: 556px;
@@ -79,6 +84,9 @@ width: 490px;
     .product__item {
         border-radius: 20px;
         box-sizing: border-box;
+        &:hover {
+            box-shadow: 3px 3px gray;
+        }
     }
 .game {
     height: 800px;
@@ -121,11 +129,22 @@ width: 490px;
         width: 234.06px;
         height: 48.6px;
         border-radius: 20px;
+        &:hover {
+            background-color: #FFFFFF;
+            color: #9C0332;
+            text-decoration: underline;
+        }
     }
     &__picture {
         width: 485px;
         height: 333px;
         margin-top: 233px;
+    }
+    &__memory {
+        gap: 135px;
+        &_right {
+            width: 588px;
+        }
     }
 }
 
