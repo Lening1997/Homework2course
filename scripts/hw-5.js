@@ -20,13 +20,20 @@ console.log(num(6,6));*/
 }
 console.log(num(6));*/
 
-//Задание 3
+//Задание 3.1
 /*function square(a) {
 }
 let a = 5;
 let result = a * a;
 
 console.log (`${result}`);*/
+
+//Задание 3.1
+/*function square(a) {
+}
+let a = 5;
+let result = a * a;
+return(${result});*/
 
 //Задание 4 
 /*let age = prompt("Сколько Вам лет?");
@@ -64,11 +71,10 @@ console.log(check(8 , `k`));*/
 /*let num = prompt("Ведите число");
 
 if (isNaN(num)) {
-    let cube = num * num * num;
-    return(`num в кубе равняется ${cube}`);
-} else {
     return(`Переданный параметр не является числом`);
-}*/
+} else {
+    let cube = num * num * num;
+    return(`num в кубе равняется ${cube}`);*/
 
 //Задание 7
 /*function getRectangleArea() {
@@ -97,44 +103,22 @@ console.log(circle2.getArea());
 console.log(circle2.getPerimeter());*/
 
 //Задание 8
-let monthNumber = prompt('Введите номер месяца');
-switch (monthNumber) {
-    /*case '1' : 
-    console.log('зима');
-    break;
-    case '2' :
-    console.log('зима');
-    break;
-    case '3' : 
-    console.log('весна');
-    break;
-    case '4' : 
-    console.log('весна');
-    break;
-    case '5' : 
-    console.log('весна');
-    break;
-    case '6' : 
-    console.log('лето');
-    break;
-    case '7' : 
-    console.log('лето');
-    break;
-    case '8' : 
-    console.log('лето');
-    break;
-    case '9' : 
-    console.log('осень');
-    break;
-    case '10' : 
-    console.log('осень');
-    break;
-    case '11' : 
-    console.log('осень');
-    break;
-    case '12' : 
-    console.log('зима');
-    break;
-    default: console.log('ввел что-то не то');
-    break;
-}*/
+/*function season() {
+    let monthNumber = prompt(`Введите номер месяца`);
+
+    if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12) {
+        console.log (`Зима`);
+        }
+    else if (monthNumber == 3 || monthNumber == 4 || monthNumber == 5) {
+        console.log (`Весна`);
+        }
+    else if (monthNumber == 6 || monthNumber == 7 || monthNumber == 8) {
+        console.log (`Лето`);
+        }
+    else if (monthNumber == 9 || monthNumber == 10 || monthNumber == 11) {
+        console.log (`Осень`);
+        }
+    else {
+        console.log (`Вы ввели неверное значение`);
+        }
+    }*/
