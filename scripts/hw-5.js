@@ -13,29 +13,43 @@ console.log(num(6,6));*/
 //Задание 2 
 /*function num(a) {
     if (a % 2 == 0) {
-        return(`Число четное`);
+        return `Число четное`;
     } else {
-        return(`Число нечетное`);
+        return `Число нечетное`;
     }
 }
 console.log(num(6));*/
 
 //Задание 3.1
 /*function square(a) {
+    a**2;
 }
-let a = 5;
-let result = a * a;
-
-console.log (`${result}`);*/
+console.log (square(5));*/
 
 //Задание 3.1
 /*function square(a) {
+    return a**2;
 }
-let a = 5;
-let result = a * a;
-return(${result});*/
+
+console.log (square(5));*/
 
 //Задание 4 
+/*function printHello () {
+
+    const age = prompt("Сколько вам лет?"); 
+
+    if (age <= 12) {
+        alert (`Привет, друг`);
+    } else {
+        alert (`Добро пожаловать!`);
+    }
+    if (age < 0) {
+        alert (`Вы ввели неправильное значение!`);
+    }
+}
+
+printHello();*/
+
 /*let age = prompt("Сколько Вам лет?");
 
 if (age <= 12) {
@@ -68,6 +82,18 @@ console.log(check(8 , 5));
 console.log(check(8 , `k`));*/
 
 //Задание 6
+/*function number () {
+
+    const num = prompt("Ведите число");
+ 
+    if (isNaN(num)) {
+        return(`Переданный параметр не является числом`);
+    } else {
+        num**3;
+        return(`num в кубе равняется ${num}`);
+    }
+}
+number ();*/
 /*let num = prompt("Ведите число");
 
 if (isNaN(num)) {
