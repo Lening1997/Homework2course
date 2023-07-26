@@ -243,6 +243,9 @@ a {
     letter-spacing: 0px;
     text-align: center;
   }
+  .game__heading_memory {
+    margin-right: 230px;
+  }
   .game__text {
     width: 343px;
     font-size: 14px;
@@ -260,11 +263,17 @@ a {
     display: block;
     margin: auto;
   }
+  .game__button_memory {
+    margin-right: 280px;
+  }
   .game__picture {
     margin-top: 64px;
     width: 344px;
     height: 236px;
     margin-bottom: 85px;
+  }
+  .game__memory {
+    align-items: center;
   }
   .game__memory_left {
     order: 2;
