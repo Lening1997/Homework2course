@@ -23,10 +23,11 @@ console.log(num(6));*/
 //Задание 3.1
 /*function square(a) {
     a**2;
+console.log (square(5));
 }
-console.log (square(5));*/
+square(a);*/
 
-//Задание 3.1
+//Задание 3.2
 /*function square(a) {
     return a**2;
 }
@@ -89,11 +90,10 @@ console.log(check(8 , `k`));*/
     if (isNaN(num)) {
         return(`Переданный параметр не является числом`);
     } else {
-        num**3;
-        return(`num в кубе равняется ${num}`);
+        return(`num в кубе равняется ${num**3}`);
     }
 }
-number ();*/
+number ();/*
 /*let num = prompt("Ведите число");
 
 if (isNaN(num)) {

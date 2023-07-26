@@ -1,4 +1,4 @@
-function season() {
+/*function season() {
     let monthNumber = prompt(`Введите номер месяца`);
 
     if (monthNumber == 1 || monthNumber == 2 || monthNumber == 12) {
@@ -16,4 +16,4 @@ function season() {
     else {
         console.log (`Вы ввели неверное значение`);
         }
-    }
+    }*/
