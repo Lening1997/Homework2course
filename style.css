@@ -95,13 +95,13 @@ a {
 
 .game {
   height: 800px;
-  display: grid;
-  grid-template-columns: repeat(6, 2fr);
+  display: flex;
+  gap: 135px;
+  align-content: center;
   background-image: url(imghw/Rectangle\ 6.jpg);
 }
-.game__left {
-  margin-right: 135px;
-  width: 595px;
+.game__foto {
+  width: 584px;
 }
 .game__heading {
   font-size: 48px;
@@ -228,10 +228,11 @@ a {
     height: 300px;
   }
   .game {
-    grid-template-columns: none;
+    flex-wrap: wrap;
+    gap: 65px;
     height: 653.61px;
   }
-  .game__left {
+  .game__foto {
     width: auto;
     margin-right: auto;
   }
@@ -244,7 +245,7 @@ a {
     text-align: center;
   }
   .game__heading_memory {
-    margin-right: 230px;
+    text-align: center;
   }
   .game__text {
     width: 343px;
@@ -275,7 +276,7 @@ a {
   .game__memory {
     align-items: center;
   }
-  .game__memory_left {
+  .game__memory_foto {
     order: 2;
   }
   .game__memory_right {

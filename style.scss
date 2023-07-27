@@ -90,12 +90,12 @@ width: 490px;
     }
 .game {
     height: 800px;
-    display: grid;
-    grid-template-columns: repeat(6,2fr);
+    display: flex;
+    gap: 135px;
+    align-content: center;
     background-image: url(imghw/Rectangle\ 6.jpg);
-    &__left {
-        margin-right: 135px;
-        width: 595px;
+    &__foto {
+        width: 584px;
     }
     &__heading {
         font-size: 48px;
