@@ -54,7 +54,7 @@ console.log(numbers);*/
 
 /*const numbers = [9, 8, 7, 6, 5];
 
-let answer = prompt(`Введите число`);
+let answer = Number(prompt(`Введите число`));
 if (numbers.includes(answer)) {
 	alert(`Угадал`);
 } else {
