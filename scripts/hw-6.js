@@ -118,3 +118,14 @@ const getLengthWords = function(words) {
 console.log (getLengthWords(words));*/
 
 //Задание 13
+
+/*function filterPositive(array) {
+	let negativeArr =[];
+	for (const value of array) {
+		if (value < 0)
+	negativeArr.push(value);
+	};
+	return negativeArr;
+}
+console.log(filterPositive([-1, 0, 5, -10, 56]));
+console.log(filterPositive([-25, 25, 0, -1000, -2]));*/
