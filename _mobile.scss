@@ -35,7 +35,7 @@
     }
     .game {
         flex-wrap: wrap;
-        gap: 65px;
+        gap: 32px;
         height: 653.61px;
         &__foto {
             width: auto;
@@ -48,8 +48,10 @@
             line-height: 39px;
             letter-spacing: 0px;
             text-align: center;
+            margin-bottom: 32px;
             &_memory {
                text-align: center;
+              
             }
         }
         &__text {
@@ -69,14 +71,20 @@
             display: block;
             margin: auto;
             &_memory {
-                margin-right: 280px;
+
             }
         }
         &__picture {
-            margin-top: 64px;
             width: 344px;
             height: 236px;
-            margin-bottom: 85px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        &__right {
+            
         }
         &__memory {
             align-items: center;

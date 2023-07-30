@@ -23,8 +23,9 @@ console.log(num(6));*/
 //Задание 3.1
 /*function square(a) {
 const result = a**2;
-console.log(result(square(5)));
-}*/
+console.log(result);
+}
+square(5);*/
 
 //Задание 3.2
 /*function square(a) {
