@@ -218,6 +218,8 @@ a {
   }
   .product {
     height: 1221px;
+    align-content: center;
+    gap: 16px;
   }
   .product__item {
     flex-direction: column;
@@ -231,8 +233,7 @@ a {
     height: 653.61px;
   }
   .game__foto {
-    width: auto;
-    margin-right: auto;
+    width: 100%;
   }
   .game__heading {
     margin-top: 178px;
@@ -274,6 +275,7 @@ a {
   }
   .game__memory {
     align-items: center;
+    justify-content: center;
   }
   .game__memory_foto {
     order: 2;

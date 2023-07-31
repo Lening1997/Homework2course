@@ -26,6 +26,8 @@
     }
     .product {
         height: 1221px;
+        align-content: center;
+        gap: 16px;
     }
     .product__item {
         flex-direction: column;
@@ -38,8 +40,7 @@
         gap: 32px;
         height: 653.61px;
         &__foto {
-            width: auto;
-            margin-right: auto;
+            width: 100%
         }
         &__heading {
             margin-top: 178px;
@@ -88,6 +89,7 @@
         }
         &__memory {
             align-items: center;
+            justify-content: center;
             &_foto {
                 order: 2;
             }
