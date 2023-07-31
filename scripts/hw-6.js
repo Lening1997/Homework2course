@@ -2,10 +2,16 @@
 
 /*const numbs = [1, 5, 4, 10, 0, 3];
 
-for (let i = 0; i < numbs.length; i++) {
-	if (numbs[i] == 10) break;
-	console.log(numbs[i]);
+let i = 0;
+
+while (i < numbs.length) {
+	if (i === 10) {
+		break
+	}
+console.log(numbs[i]);
+i++
 }*/
+
 
 //Задание 2
 
@@ -65,7 +71,7 @@ if (numbers.includes(answer)) {
 
 /*let letter = 'abcdef';
 
-letter = letter.split(` `);
+letter = letter.split('');
 console.log(letter);
 
 letter = letter.reverse();
@@ -73,6 +79,7 @@ console.log(letter);
 
 letter = letter.join('');
 console.log(letter);*/
+
 
 //Задание 9
 
@@ -92,8 +99,8 @@ const sum = (a, b) => {
 	return result;
 };
 
-const lenghtNumbers = numbers.lenght;
-for (let i = 0; i < lengthNumbers - 1; i++)
+const lenghtNumbers = numbers.length;
+for (let i = 0; i < lenghtNumbers - 1; i++)
 {
 	console.log(sum(...numbers));
 	numbers.shift();
