@@ -152,6 +152,48 @@ a {
 .game__memory_right {
   width: 588px;
 }
+.game__riddles {
+  background-image: url(imghw/unsplash_iO0I6-mhDEY.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+.game__riddles_div {
+  padding-top: 276px;
+  padding-bottom: 288px;
+}
+.game__riddles_heading {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 32px;
+  line-height: 58px;
+}
+.game__riddles_text {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  line-height: 32px;
+}
+.game__riddles_button {
+  margin-left: 490px;
+}
+
+.footer {
+  height: 80px;
+}
+.footer__text {
+  background-image: url(imghw/Rectangle\ 6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 12px;
+  color: #fff;
+}
 
 @media (max-width: 767px) {
   .center {
@@ -201,6 +243,9 @@ a {
     letter-spacing: 0px;
     text-align: center;
   }
+  .game__heading_memory {
+    margin-right: 230px;
+  }
   .game__text {
     width: 343px;
     font-size: 14px;
@@ -218,11 +263,17 @@ a {
     display: block;
     margin: auto;
   }
+  .game__button_memory {
+    margin-right: 280px;
+  }
   .game__picture {
     margin-top: 64px;
     width: 344px;
     height: 236px;
     margin-bottom: 85px;
+  }
+  .game__memory {
+    align-items: center;
   }
   .game__memory_left {
     order: 2;
@@ -230,5 +281,12 @@ a {
   .game__memory_right {
     order: 1;
     text-align: center;
+  }
+  .game__riddles_heading {
+    font-size: 32px;
+  }
+  .game__riddles_text {
+    font-size: 14px;
+    padding-bottom: 32px;
   }
 }/*# sourceMappingURL=style.css.map */

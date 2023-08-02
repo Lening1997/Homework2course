@@ -71,7 +71,7 @@ switch (monthNumber) {
     console.log('зима');
     break;
     default: console.log('ввел что-то не то');
-    break;*/
-}
+    break;
+}*/
    
 

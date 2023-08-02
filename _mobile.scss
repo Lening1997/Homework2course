@@ -47,6 +47,9 @@
             line-height: 39px;
             letter-spacing: 0px;
             text-align: center;
+            &_memory {
+                margin-right: 230px;
+            }
         }
         &__text {
             width: 343px;
@@ -64,6 +67,9 @@
         &__button {
             display: block;
             margin: auto;
+            &_memory {
+                margin-right: 280px;
+            }
         }
         &__picture {
             margin-top: 64px;
@@ -72,6 +78,7 @@
             margin-bottom: 85px;
         }
         &__memory {
+            align-items: center;
             &_left {
                 order: 2;
             }
@@ -79,6 +86,13 @@
                 order: 1;
                 text-align: center;
             }
+        }
+        &__riddles_heading {
+            font-size: 32px;
+        }
+        &__riddles_text {
+            font-size: 14px;
+            padding-bottom: 32px;
         }
     }
 }
