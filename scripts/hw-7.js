@@ -53,3 +53,39 @@ const numMax = +prompt('Введите число');
 console.log(Math.round(Math.random() * (numMax - numMin)) + numMin);*/
 
 //Задание 8
+/*let currentDate = new Date();
+console.log(currentDate);*/
+
+//Задание 9
+/*let currentDate = new Date();
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate.toDateString());*/
+
+//Задание 10
+
+/*const days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+const months = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+const ruDate = (currentDate) => {
+    let date = currentDate.getDate();
+    if (date < 10) (date = '0' + date);
+
+    let months = [currentDate.getMonth() - 1];
+
+    let day = days[currentDate.getDay()];
+
+    let hours = currentDate.getHours();
+    if (hours < 10) {hours = '0' + hours};
+
+    let mins = currentDate.getMinutes();
+    if (mins < 10) {mins = '0' + mins};
+
+    let secs = cerrentDate.getSeconds();
+    if (secs < 10) {secs = '0' + secs};
+
+    console.log (Дата : ${date} ${month} ${currentDate.getFullYear()} - это ${day}.);
+    console.log(Время : ${hours} : ${mins} : ${secs});
+ };
+
+ ruDate(cerrentDate = newDate());*/
+
+
