@@ -22,10 +22,10 @@ console.log(num(6));*/
 
 //Задание 3.1
 /*function square(a) {
-    a**2;
-console.log (square(5));
+const result = a**2;
+console.log(result);
 }
-square(a);*/
+square(5);*/
 
 //Задание 3.2
 /*function square(a) {
@@ -84,16 +84,16 @@ console.log(check(8 , `k`));*/
 
 //Задание 6
 /*function number () {
-
     const num = prompt("Ведите число");
- 
+
     if (isNaN(num)) {
-        return(`Переданный параметр не является числом`);
+        return "Переданный параметр не является числом";
     } else {
-        return(`num в кубе равняется ${num**3}`);
+        return `num в кубе равняется ${num**3}`;
     }
 }
-number ();/*
+number ();*/
+
 /*let num = prompt("Ведите число");
 
 if (isNaN(num)) {
