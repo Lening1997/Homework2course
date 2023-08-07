@@ -1,18 +1,19 @@
-function gameMemory() {
+const gameMemory = () => {
     const fruties =  ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Апельсин', 'Мандарин'];
-
-    fruties = fruties.sort(() => Math.random() - 0.5);
-    alert('Запомни слова: ${fruties}');
+    newFruties = fruties.map(el => ' ' + el);
+    newFruties.sort(()=>Math.random()-0.5);
+    alert(`Запомни слова: ${newFruties}`)
 
     const frutiesFirstWord = prompt('Какое было первое слово?');
 
     const frutiesLastWord = prompt('Какое было последнее слово?');
 
-    if (frutiesFirstWord == item[0] && frutiesLastWord === item[item.length - 1]) {
-        alert('Угадал');
-    } else if (frutiesFirstWord == item[0]) {
-        alert('Вы были близки к победе!');
+    if (frutiesFirstWord.toLowerCase()===newFruties[0].toLowerCase() && frutiesLastWord.toLowerCase()===newFruties[6].toLowerCase()) {
+        alert('Угадал')
+    } else if (frutiesFirstWord.toLowerCase()===newFruties[0].toLowerCase() && frutiesLastWord.toLowerCase()===newFruties[6].toLowerCase()) {
+        alert('Вы были близки к победе!')
     } else {
-        alert('Не угадал');
-    };
-};
+        alert('Не угадал')
+    }
+}
+gameMemory()
