@@ -1,4 +1,4 @@
-const gameMemory = () => {
+/*const gameMemory = () => {
     const fruties =  ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Апельсин', 'Мандарин'];
     newFruties = fruties.map(el => ' ' + el);
     newFruties.sort(()=>Math.random()-0.5);
@@ -16,4 +16,4 @@ const gameMemory = () => {
         alert('Не угадал')
     }
 }
-gameMemory()
+gameMemory()*/
