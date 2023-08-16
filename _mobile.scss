@@ -30,7 +30,9 @@
     }
     .product {
         height: 1221px;
+        display: flex;
         align-content: center;
+        gap: 16px;
     }
     .product__item {
         flex-direction: column;
@@ -39,11 +41,11 @@
         height: 300px;
     }
     .game {
-        grid-template-columns: none;
+        flex-wrap: wrap;
+        gap: 32px;
         height: 653.61px;
-        &__left {
-            width: auto;
-            margin-right: auto;
+        &__foto {
+            width: 100%
         }
         &__heading {
             margin-top: 51px;
@@ -52,8 +54,10 @@
             line-height: 39px;
             letter-spacing: 0px;
             text-align: center;
+            margin-bottom: 32px;
             &_memory {
-                margin-right: 230px;
+               text-align: center;
+              
             }
         }
         &__text {
@@ -73,18 +77,25 @@
             display: block;
             margin: auto;
             &_memory {
-                margin-right: 280px;
+
             }
         }
         &__picture {
-            margin-top: 64px;
             width: 344px;
             height: 236px;
-            margin-bottom: 85px;
+            text-align: center;
+            display: block;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        &__right {
+            
         }
         &__memory {
             align-items: center;
-            &_left {
+            justify-content: center;
+            &_foto {
                 order: 2;
             }
             &_right {

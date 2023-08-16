@@ -90,12 +90,13 @@ width: 490px;
     }
 .game {
     height: 800px;
-    display: grid;
-    grid-template-columns: repeat(6,2fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    align-content: center;
     background-image: url(imghw/Rectangle\ 6.jpg);
-    &__left {
-        margin-right: 135px;
-        width: 595px;
+    &__foto {
+        width: 584px;
     }
     &__heading {
         font-size: 48px;
@@ -104,8 +105,6 @@ width: 490px;
         letter-spacing: 0px;
         text-align: left;
         color: #FFFFFF;
-        margin-top: 282px;
-        margin-bottom: 32px;
     }
     &__text {
         font-size: 18px;
@@ -138,13 +137,12 @@ width: 490px;
     &__picture {
         width: 485px;
         height: 333px;
-        margin-top: 233px;
     }
-    &__memory {
-        gap: 135px;
-        &_right {
-            width: 588px;
-        }
+    &__memory_right {
+        width: 584px;
+    }
+    .reverse {
+       flex-direction: row-reverse;
     }
     &__riddles {
         background-image: url(imghw/unsplash_iO0I6-mhDEY.jpg);
