@@ -198,6 +198,9 @@ a {
     padding-left: 16px;
     padding-right: 16px;
   }
+  .top {
+    height: 735px;
+  }
   .top__heading {
     width: 343px;
     color: white;
@@ -236,7 +239,7 @@ a {
     width: 100%;
   }
   .game__heading {
-    margin-top: 178px;
+    margin-top: 51px;
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
